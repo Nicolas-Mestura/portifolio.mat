@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(to right, #00e1ff, #01b963);
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(to right, #00e1ff, #01b963);
+
+}
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}  
+.lolo{
+
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    font-size: 20px;
+  }
+  li{
+    font-size: 20px;
+  }
+  h3{
+    font-size: 25px;
+  }
+  div{
+    width: 500px;
+    height: 500px;
+  }
+  img:hover{
+    width: 500px;
+    height: 500px;
+  }
+  .pao{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  #blox:hover{
+    width: 500px;
+    height: 500px;
+  }
+  .dado{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: #662B8A;
+    }
+  .dedo{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  color: #662B8A;
+  }

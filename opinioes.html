@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opinioes</title>
+    <link rel="stylesheet" href="css/opinioes.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+
+            <td><a href="index.html">Home</a></td>
+
+
+            <td><a href="funçao_afim.html">Função afim</a></td>
+
+
+            <td><a href="funçao_exponencial.html">Funcão exponencial</a></td>
+
+
+            <td><a href="funçao_quadratica.html">Função quadrática</a></td>
+
+
+            <td><a href="logaritmos.html">Logaritmos</a></td>
+
+            <td><a href="Explica.html">Vídeos explicativos</a></td>
+
+            <td><a href="opinioes.html">Formulário</a></td>
+            
+            <td><a href="avaliaçao.html">Autoavaliação</a></td>
+        </tr><br><br>
+    </table>
+    <h3>Agora que você leu o portifólio eu gostaria que você me respondesse umas questões a respeito dele:</h3><br>
+    <form id='cadcli' action='teste.php' method="get">
+        <label for='firstname'>Nome completo:</label><br>
+        <input required="required" placeholder="Qual é o seu nome" size="50" type="text" name="firstname"> <br>
+        <br>
+        <fieldset>
+            <legend>Você achou útil?</legend>
+            <input type="radio" name="sim" value="Feminino">
+            <label for="sim">Sim</label>
+            <input type="radio" name="não" value="Masculino">
+            <label for="não">Não</label>
+        </fieldset>
+        <br>
+        <label>Qual você achou mais completo?:</label><br>
+        <select name="devices">
+            <option value="Função afim">Função afim</option>
+            <option value="Funcão exponencial">Funcão exponencial</option>
+            <option value="Função quadrática">Função quadrática</option>
+            <option value="Logaritmos">Logaritmos</option>
+        </select>
+        <br><br>
+        <label>Você gostaria de mais conteúdos neste portifólio?</label>
+        <br>
+        <input type="checkbox" name="quando" value="Sim">Sim
+        <input type="checkbox" name="quando" value="Não">Não
+        <br>
+        <input placeholder="Se sim qual?" size="30" type="text" name="qual">
+        <br><br>
+        <textarea placeholder="O que deve ser melhorado?" name="comentário" cols="30" rows="4"></textarea><br>
+        <br><br>
+
+        <input type="reset" value="Limpar" />
+        <input type="submit" value="Enviar" />
+    </form>
+
+</body>
+
+</html>
